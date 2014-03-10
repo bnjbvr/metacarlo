@@ -1,14 +1,16 @@
 #include <iostream>
 
-// Computes Pi value at compile time.
-
+#ifndef SEED
 // Pseudo random numbers generator's seed.
 // Pick any number, I dare you, I double dare you.
-const int SEED = 2;
+const int SEED = 0;
+#endif
+
+// Computes Pi value at compile time.
 
 // Number of loop iterations
 // Putting a too damn high number here can kill your compiler
-const int n = 16772;
+const int n = 20000;
 
 // Linear Congruent Generator
 // a is the multiplicative coefficient
