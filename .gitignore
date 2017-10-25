@@ -1,3 +1,6 @@
+meta-constexpr
+meta-montecarlo
+
 # Compiled Object files
 *.slo
 *.lo
