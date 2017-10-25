@@ -15,6 +15,7 @@ tldr
 
 - `make`
 - `./meta-montecarlo`
+- `./meta-constexpr`
 
 why
 ===
